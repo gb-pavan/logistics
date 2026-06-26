@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SwiftBus Logistics | Premium Intercity Parcel Service</title>
+  <meta name="description" content="Fast, reliable, and affordable bus parcel logistics for city-to-city deliveries.">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">SwiftBus<span>Logistics</span></a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How it Works</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a href="#booking" class="btn btn-primary">Send Parcel</a>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content reveal">
+        <h1>Same-Day Bus Parcel Delivery You Can Trust</h1>
+        <p>Fast, secure, and affordable city-to-city logistics right from your local bus stand. We handle your business and personal parcels with premium care.</p>
+        <div class="hero-buttons">
+          <a href="#booking" class="btn btn-primary">Book a Parcel</a>
+          <a href="https://wa.me/1234567890" target="_blank" class="btn btn-secondary">WhatsApp Us</a>
+        </div>
+      </div>
+      <div class="hero-image reveal">
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/15111968120810167623_0" alt="Premium Bus parcel logistics">
+      </div>
+    </div>
+  </section>
+
+  <section class="carousel-section reveal">
+    <div class="container">
+      <div class="carousel-wrapper" id="carousel-wrapper">
+      </div>
+    </div>
+  </section>
+
+  <section class="features bg-light" id="features">
+    <div class="container reveal">
+      <div class="section-header">
+        <h2>Why Choose SwiftBus</h2>
+        <p>Premium service with local expertise.</p>
+      </div>
+      <div class="grid" id="features-grid">
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container reveal">
+      <div class="section-header">
+        <h2>Our Logistics Solutions</h2>
+        <p>Tailored transport for businesses and individuals.</p>
+      </div>
+      <div class="grid" id="services-grid">
+      </div>
+    </div>
+  </section>
+
+  <section class="how-it-works bg-light" id="how-it-works">
+    <div class="container reveal">
+      <div class="section-header">
+        <h2>How It Works</h2>
+        <p>Three simple steps to get your parcel moving.</p>
+      </div>
+      <div class="steps-container" id="steps-container">
+      </div>
+    </div>
+  </section>
+
+  <section class="booking" id="booking">
+    <div class="container reveal">
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <h2>Ready to dispatch?</h2>
+          <p>Fill out the form to generate a quick WhatsApp booking request. Our team will instantly confirm your bus and timing.</p>
+        </div>
+        <form id="booking-form" class="booking-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="from" placeholder="From (City/Stand)" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="to" placeholder="To (City/Stand)" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="parcel-details" placeholder="Parcel Details (Weight/Items)" required>
+          </div>
+          <div class="form-group">
+            <select id="time" required>
+              <option value="" disabled selected>Preferred Bus Time</option>
+              <option value="Morning">Morning (6 AM - 12 PM)</option>
+              <option value="Afternoon">Afternoon (12 PM - 5 PM)</option>
+              <option value="Night">Night (5 PM - 10 PM)</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Generate Booking via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container reveal">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="accordion" id="faq-accordion">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>SwiftBus Logistics</h3>
+        <p>Premium intercity parcel transport trusted by hundreds of local businesses.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>📞 +1 (234) 567-8900</p>
+        <p>💬 +1 (234) 567-8900 (WhatsApp)</p>
+        <p>📍 Main City Bus Terminal, Gate 4</p>
+        <p>🕒 Mon-Sun, 6:00 AM - 10:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 SwiftBus Logistics. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="back-to-top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
