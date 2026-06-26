@@ -3,9 +3,9 @@ const CONFIG = {
   whatsappNumber: "1234567890", 
   
   carouselImages: [
-    { src: "/images/image4.png", caption: "Loading parcels securely onto our modern bus fleet." },
-    { src: "/images/image2.png", caption: "Safe, systematic handling at every bus stand." },
-    { src: "/images/image3.png", caption: "Fast intercity transit arriving on schedule." }
+    { src: "images/image4.png", caption: "Loading parcels securely onto our modern bus fleet." },
+    { src: "images/image2.png", caption: "Safe, systematic handling at every bus stand." },
+    { src: "images/image3.png", caption: "Fast intercity transit arriving on schedule." }
   ],
 
   features: [
